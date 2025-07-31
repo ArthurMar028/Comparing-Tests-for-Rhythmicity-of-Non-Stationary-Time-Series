@@ -9,7 +9,6 @@
 
 #0. Data loader
 
-setwd("C:/Users/Maria/Desktop/Arthur - Methods/pt_data")
 data <- read.csv("Posicao_vs_tempo.csv") #As it is a position x time series, there is already a oscilatory component, but with a linear (I think) trend
 head(data)
 posicao <- data$Posicao
